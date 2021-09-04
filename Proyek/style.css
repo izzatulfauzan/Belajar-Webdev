@@ -1,0 +1,61 @@
+body{
+    background-color : chocolate;
+    margin : 0;
+    background-image : url("https://www.bing.com/th?id=OIP.z8SkHzJJ7G-lp7t6ZuzYawHaE7&w=157&h=104&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2");
+}
+.identity
+{
+    text-align : center;
+}
+.nama{
+    /*display : inline;
+    background-color : blueviolet;
+    margin-bottom : 5px;
+    line-height : 60px;
+    */margin-left : 20px;
+}
+header{
+    display : flex;
+    padding : 20px;
+    background-color : green;
+    /* margin-bottom : 30px */
+}
+.foto{
+    width : 120px;
+}
+.container{
+    display: grid;
+    grid-template-areas:
+        "education experience skills";
+    padding: 20px;
+    margin : auto;
+    background-color: crimson;
+    max-width : 800px;
+    position : relative;
+}
+.education{
+    grid-area : education;
+    background-color : green;
+}
+.experience{
+    grid-area : experience;
+    background-color : green; 
+}
+.skills
+{
+    grid-area : skills;
+    background-color : green;
+}
+h4{
+    text-align : center;
+}
+footer
+{
+    text-align : center;
+    width : 100%;
+    background-image : url("https://th.bing.com/th/id/OIP.PKslF-nrqxrHVtgA9gHg6gHaHG?w=199&h=190&c=7&r=0&o=5&dpr=1.25&pid=1.7");   
+}
+.icon
+{
+    width : 50px;
+}
