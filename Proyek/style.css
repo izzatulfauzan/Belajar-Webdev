@@ -5,6 +5,7 @@ body{
 }
 .identity
 {
+    color : black;
     text-align : center;
 }
 .nama{
@@ -13,11 +14,12 @@ body{
     margin-bottom : 5px;
     line-height : 60px;
     */margin-left : 20px;
+    color : black;
 }
 header{
     display : flex;
     padding : 20px;
-    background-color : green;
+    background-color: green;
     /* margin-bottom : 30px */
 }
 .foto{
@@ -36,15 +38,18 @@ header{
 .education{
     grid-area : education;
     background-color : green;
+    color : black;
 }
 .experience{
     grid-area : experience;
     background-color : green; 
+    color : black;
 }
 .skills
 {
     grid-area : skills;
     background-color : green;
+    color : black;
 }
 h4{
     text-align : center;
@@ -58,4 +63,20 @@ footer
 .icon
 {
     width : 50px;
+}
+.lightButton 
+{
+    display:none;
+}
+.identifier1
+{
+    color : black;
+}
+.identifier2
+{
+    color : black;
+}
+.identifier3
+{
+    color : black;
 }
